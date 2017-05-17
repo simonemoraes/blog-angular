@@ -12,6 +12,9 @@ import { BlogService } from './providers/blog.service';
 import { RoutingModule } from './app.router';
 import { HeaderComponent } from './components/header/header.component';
 import { PostCardComponent } from './components/post-card/post-card.component';
+import { PostsComponent } from './components/posts/posts.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { PostComponent } from './components/post/post.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,10 @@ import { PostCardComponent } from './components/post-card/post-card.component';
     PostPageComponent,
     Error404PageComponent,
     HeaderComponent,
-    PostCardComponent
+    PostCardComponent,
+    PostsComponent,
+    FooterComponent,
+    PostComponent
   ],
   imports: [
     RoutingModule,
